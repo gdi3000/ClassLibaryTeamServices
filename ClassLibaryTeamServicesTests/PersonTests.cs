@@ -37,7 +37,7 @@ namespace ClassLibaryTeamServices.Tests
 
             Assert.AreSame(P.GetAddress(), "Elisagaardsvej 5");
         }
-
+        [TestMethod()]
         public void UnsuccessfulGetAddressTest()
         {
             Person P = new Person();
