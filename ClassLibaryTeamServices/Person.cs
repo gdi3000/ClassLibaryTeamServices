@@ -6,5 +6,10 @@
         {
             return "Daniel Hahnemann";
         }
+
+        public string GetAddress()
+        {
+            return "Elisagaardsvej 5";
+        }
     }
 }
